@@ -15,19 +15,19 @@
             <legend>Kreipinys</legend>
          <div>
              <label> 
-                 <input type="radio" value="Ponas" name="atsakymas ">
+                 <input required type="radio" value="Ponas" name="atsakymas">
                  Ponas
             </label>
         </div>
         <div>
             <label>
-                 <input type="radio" value="Ponia" name="atsakymas">
+                 <input required type="radio" value="Ponia" name="atsakymas">
                  Ponia
            </label>
         </div>
         <div> 
             <label>
-                 <input type="radio" value="Nesakysiu" name="atsakymas">
+                 <input required type="radio" value="Nesakysiu" name="atsakymas">
                  Nesakysiu
          </label>
         </div>
@@ -67,16 +67,16 @@
         </select>
     </label>
     </div>
-    <div>  
+    <div>
     <label>
         Kortelės numeris:*
-        <input required type="text" name="cardname"  />
+        <input required type="text" name="cardname" value="4510123456781234, 373342709912345, 5410123412344567" />
     </label>
     </div>
     <div>
         <label>
             Galiojimo data:* <em>pateikite mm/dd/yyy formatu</em>
-            <input required type="date" name="expiration"/>
+            <input required type="date" name="expiration" value="2022-02-10" />
         </label>
     </div>
     <hr />
