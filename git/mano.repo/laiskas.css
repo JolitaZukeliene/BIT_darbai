@@ -1,0 +1,23 @@
+body {
+    background-color: lavender;
+border: 1px;
+}
+.top {
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+.text {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    border: 1px;
+}
+.kreipinys {
+    font-family: 'Courier New', Courier, monospace;
+    text-size-adjust: 20px;
+    margin-bottom: 25px; 
+    padding-right: 20px; 
+}
