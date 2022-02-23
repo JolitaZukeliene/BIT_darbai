@@ -1,0 +1,27 @@
+input::placeholder {
+    color: rgb(104, 104, 104, 0.61);
+    font-weight: bold;
+}
+input:hover {
+    border: 3px solid brown;
+}
+input:required{
+    background-color: lightyellow;
+}
+input:valid{
+    border: 3px solid greenyellow;
+}
+input:invalid{
+    border: solid red;
+}
+p::first-letter{
+    font-size: 2rem;
+}
+p:nth-child(odd){
+    background-color: ghostwhite;
+}
+input:focus{
+    outline: 3px, blue;
+}
+
+
